@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='gapy',
+    name='pyga',
     version='0.1.0',
     url='https://github.com/jorahn/gapy-tools.git',
     author='Jonathan Rahn & Hoang Nguyen',
