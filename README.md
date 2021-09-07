@@ -1,4 +1,4 @@
-# gapy-tools
+# Python Google Analytics API Tools
 
 Zur vereinfachten Nutzung der Google Analtyics APIs:
 - Reporting API v4
