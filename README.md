@@ -9,7 +9,7 @@ Zur vereinfachten Nutzung der Google Analtyics APIs:
 ```python
 import gapy
 
-client = gapy.Client(credentials, view)
+client = gapy.Client(credentials_path, ga_view_id)
 data = client.get_report(daterange, dimensions, metrics)
 data.info() # display pd.DataFrame
 ```
