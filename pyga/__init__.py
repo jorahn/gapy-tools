@@ -21,4 +21,4 @@ class Client(object):
             }]
         }
         
-        return self.client.reports().batchGet(request).execute()
+        return self.client.reports().batchGet(body=request).execute()
