@@ -4,9 +4,9 @@ from oauth2client.service_account import ServiceAccountCredentials
 SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
 
 class Client(object):
-    def __init__(self, credentials, view):
+    def __init__(self, credentials_file, ga_view_id):
         sac = ServiceAccountCredentials.from_json_keyfile_name(
-            credentials, SCOPES)
+            credentials_file, SCOPES)
         self.client = build('analyticsreporting', 'v4', credentials=sac)
         self.view = view
         
