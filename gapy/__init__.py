@@ -1,9 +1,7 @@
-import 
-
 from apiclient.discovery import build
 from oauth2client.service_account import ServiceAccountCredentials
-SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
 
+SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
 
 class Client(object):
     def __init__(self, credentials, view):
