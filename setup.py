@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='pyga',
     version='0.1.0',
-    url='https://github.com/jorahn/gapy-tools.git',
+    url='https://github.com/jorahn/pyga.git',
     author='Jonathan Rahn & Hoang Nguyen',
     author_email='jonathan.rahn@42digital.de',
     description='Google Analytics API Tools',
