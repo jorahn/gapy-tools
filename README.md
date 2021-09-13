@@ -7,9 +7,9 @@ Zur vereinfachten Nutzung der Google Analtyics APIs:
 - Queries auf BigQuery Export
 
 ```python
-import gapy
+import pyga
 
-client = gapy.Client(credentials_path, ga_view_id)
+client = pyga.Client(credentials_path, ga_view_id)
 data = client.get_report(daterange, dimensions, metrics)
 data.info() # display pd.DataFrame
 ```
